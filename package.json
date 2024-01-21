@@ -1,0 +1,23 @@
+{
+  "name": "quickbite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mongoos": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  }
+}
